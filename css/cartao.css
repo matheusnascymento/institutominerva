@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;800&display=swap');
+
+body{
+    background-color: #e5e4e2;
+}
+/*header*/
+
+nav{
+    background-color: #A15EAB;
+}
+
+#extencao-navbar{
+    margin-bottom: 0px;
+}
+
+#extencao-navbar a{
+    display: flex;
+    align-items: center;
+    color: #A15EAB;
+}
+
+#extencao-navbar a:hover{
+    background-color: #A15EAB;
+    color: white;
+}
+
+#pesquisa{
+    background-color: #ffffff;
+    border: none;
+    width: 280px;
+    height: 40px;
+    margin-top: 10px;
+}
+#iconsearch{
+    margin-top: -10px;
+}
+
+#pesquisa label i{
+    color: #A15EAB;
+}
+
+#pesquisa-mobile{
+    background-color: #A15EAB;
+    border: none;
+}
+
+#pesquisa label i{
+    color: #A15EAB;
+} 
+::placeholder{
+    
+    color: #A15EAB;
+
+}
+/*main*/
+#iconuser{
+    color: rgba(114, 55, 122, 0.8);
+    margin-top: 10px;
+}
+.accent1{
+    color: rgba(114, 55, 122, 0.8);
+    
+    font-family: 'Nunito', sans-serif;
+}
+#link{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.tabs{
+    background-color: rgba(216, 191, 216, 0);
+    margin-bottom: 0px;
+}
+
+.tabs .tab a{
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-size: 130%;
+}
+
+#marcado{
+    background-color: #D5BBD9;
+}
+
+.tabela{
+    background-color: #D5BBD9;
+}
+
+.box_meio{
+    background-color: #A15EAB;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+#pesquisa{
+    margin-bottom: 0%;
+}
+
+#autocomplete-input{
+    margin-bottom: 0px;
+}
+
+#nome{
+    margin-top: 30px;
+}
+
+.box_meio > div{
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.btn, .btn-large, .btn-small{
+    background-color: #A15EAB;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+
+h5{
+    padding: 5px;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover{
+    background-color: #83588a;
+}
+
+#pergunta{
+    margin-top: 70px;
+}
+
+#size1{
+  background-color: #A15EAB;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#botao{
+background-color: #fff;
+  color: #A15EAB;
+}
+#botao:hover{
+    background-color: #D5BBD9;
+      color: #A15EAB;
+    }
+
+#size1:hover{
+    color: white;
+}
+
+.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .helper-text, .input-field .prefix ~ .autocomplete-content {
+    color: white;
+}
+
+input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+/*footer*/
+footer nav{
+    height: 150px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon i{
+    width: 90px;
+}
+
+footer nav p{
+    margin: 0px;
+}
+
+#linha{
+    border: 1px solid white;
+}
+.fab{
+    font-size: 40px;
+}

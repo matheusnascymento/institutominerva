@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissões</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/profissoes.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-extended z-depth-2">
+            <div class="nav-wrapper container">
+              <a href="index.html" class="brand-logo"><img src="img/Logo.png" alt="Logo"></a><!--Logo-->
+
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <!--menu mobile-->
+
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                  <div id="pesquisa" class="z-depth-0">
+                    <form>
+                      <div class="input-field">
+                        <input id="search" type="search" placeholder="Pesquise aqui">
+                          <label class="label-icon" for="search"><i class="material-icons" id="iconsearch">search</i></label>
+                          <i class="material-icons" id="iconsearch">close</i>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+                <li><a href="Enem.html">Enem</a></li>
+                <li class="active"><a href="#">Profissões</a></li>
+                <li><a href="metodo.html">Nosso método</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+              </ul><!--menu da navbar-->
+
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="Enem.html">Enem</a></li>
+                <li class="active"><a href="#">Profissões</a></li>
+                <li><a href="metodo.html">Nosso método</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li>
+                  <div id="pesquisa-mobile">
+                    <form>
+                      <div class="input-field col l1">
+                        <input id="search" type="search" placeholder="Pesquise aqui">
+                          <label class="label-icon" for="search"><i class="material-icons" id="iconsearch">search</i></label>
+                          <i class="material-icons" id="iconsearch">close</i>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </nav><!--Navbar do site-->
+        
+        <div class="row">
+          <div class="col offset-l9">
+            <div class="usuario">
+              <a href="login.html" class="accent1"><i class="material-icons" id="iconuser">person</i>
+              Faça seu login ou cadastre-se</a>
+            </div>
+          </div>
+        </div><!--Extensão da navbar-->
+    </header>
+    <main>
+      <div class="row">
+        <div class="col offset-l2">
+          <p id="link"> <a href="index.html"><span id="pagina"> HOME </span></a> » <span id="informacao">PROFISSÕES</span></p>
+        </div>
+      </div>
+      <div class="slogan row">
+        <div class="col center l8 offset-l2 flow-text">
+          <p id="slogan">Descubra aqui sua profissão ideal.</p>
+        </div>
+      </div>
+      <div class="conteudo row">
+        <a href="astronauta.html"><div class="carde col l2 m1 s8 offset-l2 offset-m1 offset-s2" id="cor">
+            <img src="img/profissoes/astro1.png">
+        </div></a>
+
+        <a href="programacao.html"><div class="carde col l2 m1 s8 offset-l1 offset-s2" id="borda">
+            <img src="img/profissoes/program.png">
+        </div></a>
+
+        <a href="nutricionista.html"><div class="carde col l2 m1 s8 offset-l1 offset-s2" id="cor">
+            <img src="img/profissoes/nutri.png">
+        </div></a>
+      </div><br><br><br>
+
+      <div class="conteudo row">
+        <a href="cientista.html"><div class="carde col l2 m1 s8 offset-l2 offset-m1 offset-s2" id="borda">
+            <img src="img/profissoes/cient.png">
+        </div></a>
+
+        <a href="gastronomia.html"><div class="carde col l2 m1 s8 offset-l1 offset-s2" id="cor">
+            <img src="img/profissoes/cozinh.png">
+        </div></a>
+
+        <a href="musico.html"><div class="carde col l2 m1 s8 offset-l1 offset-s2" id="borda">
+            <img src="img/profissoes/music.png">
+        </div></a>
+      </div><br><br><br>
+
+      <div class="conteudo row">
+        <a href="quimico.html"><div class="carde col l2 m1 s8 offset-l2 offset-m1 offset-s2" id="cor">
+            <img src="img/profissoes/quim.png">
+        </div></a>
+
+        <a href="barbeiro.html"><div class="carde col l2 m1 s8 offset-l1 offset-s2" id="borda">
+            <img src="img/profissoes/barb.png">
+        </div></a>
+        
+        <a href="engenheiro.html"><div class="carde col l2 m1 s8 offset-l1 offset-s2" id="cor">
+            <img src="img/profissoes/engen.png">
+        </div></a>
+      </div>
+    </main>
+
+    <footer>
+      <nav>
+          <div class="row" class="espaco"></div>
+          <div class="row">
+            <div class="col offset-l2 l9">
+              <div id="linha"></div>
+            </div>
+          </div>
+          <div class="row">
+            <a href="https://www.facebook.com/Instituto-Minerva-100407802564441/" target="_blank"><div class="col offset-l5 ">
+              <i class="fab fa-facebook"></i></div></a>
+  
+            <a href="https://www.instagram.com/instituto_minerva1/" target="_blank">
+              <div class="col"><i class="fab fa-instagram"></i></div></a>
+  
+            <a href="https://twitter.com/InstitutoMiner1" target="_blank"><div class="col"><i class="fab fa-twitter-square">
+            </i></div></a><br>
+            
+            <div class="col offset-l4"><h6> AV. Mjsjjjw, 698 - Olinda - PE  (81) 3777 - 0101 ou (81) 7405 - 0000</h6></div>
+          </div>
+        </nav>
+      </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="JS/navbar.js"></script>
+</body>
+</html>

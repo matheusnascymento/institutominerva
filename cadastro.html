@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="row" id="linha1">
+        </div>
+        <div id="nav">
+            <div class="row" id="linha2">
+                <div class="col offset-l2 l1">
+                    <a href="login.html" class="tabela">
+                    LOGIN
+                    </a>
+                </div>
+                <div class="col l1">
+                    <a href="cadastro.html" class="tabela act">
+                    CADASTRO
+                    </a>
+                </div>   
+            </div>
+            </div>
+    <div class="cadastro tabelaShow">
+        <div class="row" id="linha3">
+        </div>
+        <div class="row" id="linha4">
+            <div class="col offset-l2 l4 m6 offset-m2 s10 offset-s1">
+                <input type="text" id="input-text"placeholder="Nome"><br><br>
+                <input type="text" id="input-text"placeholder="Nome de Usuário"><br><br>
+                <input type="email" id="input-text"placeholder="Email"><br><br>
+                <input type="password" id="input-text" class="senha" placeholder="Senha">
+                <i id="eye" class="fas fa-eye-slash"></i><br>
+            </div>
+            <div class="col offset-l1 hide-on-small-only hide-on-med-only">
+                <img src="img/logo_login.png" id="logo"><br>
+                <span>ONDE A SABEDORIA</span>
+                <span>PREDOMINA</span>
+            </div>
+        </div>
+        <div class="row" id="linha5">
+            <div class="col offset-l2 l4">
+            <input type="radio" NAME="termos" VALUE="termos">
+            <label id="check">
+                <input type="checkbox" />
+                <span>Concordo com os<b> Termos de uso</b> do Instituto Minerva.</span>
+              </label> 
+            </div>
+        </div>
+        <div class="row" id="linha6">
+        </div>
+        <div class="row" id="linha7">
+            <div class="col offset-l2 offset-m2 s9 offset-s1">
+                <span>Se preferir, entre com uma rede social:</span>
+            </div>
+        </div>
+        <div class="row" id="linha8">
+            <div class="col offset-l2 l1 offset-m2 s1 offset-s1">
+                <i id="icon" class="fab fa-google"></i>
+            </div>
+            <div class="col l1 offset-m1 offset-s1">
+                <i id="icon" class="fab fa-facebook-f"></i>
+            </div>
+            <div class="col offset-l1 offset-m2 offset-s3">
+                <a href="login.html"><button id="button">CADASTRAR</button></a>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="js/jquery.js"></script>
+    <script>
+        var senha = $('.senha');
+        var olho= $("#eye");
+
+        olho.mousedown(function() {
+            senha.attr("type", "text");
+        });
+
+        olho.mouseup(function(){
+            senha.attr("type", "password");
+        });
+
+        $( "#eye" ).mouseout(function() { 
+            $(".senha").attr("type", "password");
+        });
+    </script>
+</body>
+</html>

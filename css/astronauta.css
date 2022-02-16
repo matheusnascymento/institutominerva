@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;800&display=swap');
+
+/*header*/
+
+nav{
+    background-color: #A15EAB;
+}
+
+#extencao-navbar{
+    margin-bottom: 0px;
+}
+
+#extencao-navbar a{
+    display: flex;
+    align-items: center;
+    color: #A15EAB;
+}
+
+#extencao-navbar a:hover{
+    background-color: #A15EAB;
+    color: white;
+}
+
+#pesquisa{
+    background-color: #ffffff;
+    border: none;
+    width: 280px;
+    height: 40px;
+    margin-top: 10px;
+}
+#iconsearch{
+    margin-top: -10px;
+}
+
+#pesquisa label i{
+    color: #A15EAB;
+}
+
+#pesquisa-mobile{
+    background-color: #A15EAB;
+    border: none;
+}
+
+#pesquisa label i{
+    color: #A15EAB;
+} 
+::placeholder{
+    
+    color: #A15EAB;
+
+}
+
+/*Main*/
+main{
+    background-color: #C490CC;
+}
+#iconuser{
+    color: rgba(114, 55, 122, 0.8);
+    margin-top: 10px;
+}
+.accent1{
+    color: rgba(114, 55, 122, 0.8);
+    
+    font-family: 'Nunito', sans-serif;
+}
+#link{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+#informacao{
+    cursor: pointer;
+    transform: scale(1.5);
+    border-bottom: 2px solid white;
+    box-shadow: 0px 3px  rgba(0, 0, 0, 0.25);
+    color: black;
+    font-size: 20px;
+}
+#pagina{
+   color: #ffffff; 
+}
+.conteudo{
+    background-color: #ffffff;
+}
+
+span{
+    color: #A15EAB;
+}
+
+.conteudo p{
+    font-size: 100%;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.conteudo h4{
+    font-family: 'Nunito', sans-serif;
+}
+
+.conteudo{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.row .col{
+    padding: 0px;
+}
+
+img{
+    padding: 0px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+/*footer*/
+footer nav{
+    height: 150px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon i{
+    width: 90px;
+}
+
+footer nav p{
+    margin: 0px;
+}
+
+#linha{
+    border: 1px solid white;
+}
+.fab{
+    font-size: 40px;
+    margin-left: 20px;
+}

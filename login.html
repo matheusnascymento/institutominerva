@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="row" id="linha1">
+        </div>
+        <div id="nav">
+        <div class="row" id="linha2">
+            <div class="col offset-l2 l1 offset-m2 offset-s1">
+                <a href="login.html" class="tabela act">
+                LOGIN
+                </a>
+            </div>
+            <div class="col l1">
+                <a href="cadastro.html" class="tabela">
+                CADASTRO
+                </a>
+            </div>   
+        </div>
+        </div>
+        <div class="login tabelaShow">
+        <div class="row" id="linha3">
+        </div>
+        <div class="row" id="linha4">
+            <div class="col offset-l2 l4 m6 offset-m2 s10 offset-s1">
+                <input type="text" id="input-text"placeholder="Nome de Usuário"><br><br>
+                <input type="password" id="input-text" class="senha" placeholder="Senha">
+                <i id="eye" class="fas fa-eye-slash" ></i>
+            </div>
+            <div class="col offset-l1 hide-on-small-only hide-on-med-only">
+                <img src="img/logo_login.png" id="logo"><br>
+                <span>ONDE A SABEDORIA</span>
+                <span>PREDOMINA</span>
+            </div>
+        </div>
+        <div class="row" id="linha5">
+            <div class="col l2 m3 offset-l2 offset-m2 s4 offset-s1">
+                <a href="email.html"><span>ESQUECI MINHA SENHA</span></a> 
+            </div>
+            <div class="col s6">
+                <a href="emailuser.html"><span>ESQUECI MEU NOME DE USUÁRIO</span></a>
+            </div>
+        </div>
+        <div class="row" id="linha6">
+        </div>
+        <div class="row" id="linha7">
+            <div class="col offset-l2 offset-m2 s9 offset-s1">
+                <span>Se preferir, entre com uma rede social:</span>
+            </div>
+        </div>
+        <div class="row" id="linha8">
+            <div class="col offset-l2 l1 offset-m2 s1 offset-s1">
+                <i id="icon" class="fab fa-google"></i>
+            </div>
+            <div class="col l1 offset-m1 offset-s1">
+                <i id="icon" class="fab fa-facebook-f"></i>
+            </div>
+            <div class="col offset-l1 offset-m2 offset-s3">
+               <a href="index.html"><button id="button">ENTRAR</button></a> 
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="js/jquery.js"></script>
+    <script>
+        var senha = $('.senha');
+        var olho= $("#eye");
+
+        olho.mousedown(function() {
+            senha.attr("type", "text");
+        });
+
+        olho.mouseup(function(){
+            senha.attr("type", "password");
+        });
+
+        $( "#eye" ).mouseout(function() { 
+            $(".senha").attr("type", "password");
+        });
+    </script>
+</body>
+</html>

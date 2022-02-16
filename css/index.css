@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@800&display=swap');
+
+/*header*/
+nav{
+    background-color: #A15EAB;
+}
+
+#extencao-navbar{
+    margin-bottom: 0px;
+}
+
+#extencao-navbar a{
+    display: flex;
+    align-items: center;
+    color: #A15EAB;
+}
+
+#extencao-navbar a:hover{
+    background-color: #A15EAB;
+    color: white;
+}
+#pesquisa{
+    background-color: #ffffff;
+    border: none;
+    width: 280px;
+    height: 40px;
+    margin-top: 10px;
+}
+#iconsearch{
+    margin-top: -10px;
+}
+
+#pesquisa label i{
+    color: #A15EAB;
+}
+
+#pesquisa-mobile{
+    background-color: #A15EAB;
+    border: none;
+}
+
+#pesquisa label i{
+    color: #A15EAB;
+} 
+::placeholder{
+    
+    color: #A15EAB;
+
+}
+
+/*Main*/
+
+#iconuser{
+    color: rgba(114, 55, 122, 0.8);
+    margin-top: 10px;
+}
+.accent1{
+    color: rgba(114, 55, 122, 0.8);
+    font-family: 'Nunito', sans-serif;
+}
+.card{
+    background-color: #C490CC;
+    margin-top: 30px;
+}
+
+.conteudo{
+    color: #ffffff;
+    padding: 50px;
+}
+
+main{
+    background-color: #E5E5E5;
+}
+
+.caption{
+    margin-top: 180px;
+}
+
+.caption h2{
+    color: #A15EAB;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 0px;
+}
+.caption h5{
+    margin: 0px;
+    font-family: 'Nunito', Arial;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: #A15EAB;
+}
+
+.slider .indicators .indicator-item{
+    background-color: #ffffff;
+}
+
+.conteudo p{
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.conteudo{
+    margin-top: 100px;
+    background-color: #A15EAB;
+}
+
+.carde{
+    margin-top: 40px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+span{
+    color: #ffffff;
+    font-size: 160%;
+}
+
+.carde{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.avaliações{
+    width: 100%;
+}
+
+footer nav{
+    height: 150px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon i{
+    width: 90px;
+}
+
+footer nav p{
+    margin: 0px;
+}
+#linha{
+    border: 1px solid white;
+}
+.fab{
+    font-size: 40px;
+}
+
+.avaliações{
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+p{
+    font-size: 140%;
+    font-family: 'Acme', sans-serif;
+    margin: 0px;
+}
+
+
+.slider{
+    margin-bottom: 60px;
+}
+
+#slogan{
+    background-color: #A15EAB;
+    color: #ffffff;
+}

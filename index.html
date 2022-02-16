@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-extended z-depth-2" id="fixo">
+            <div class="nav-wrapper container">
+              <a href="index.html" class="brand-logo"><img src="img/Logo.png" alt="Logo"></a><!--Logo-->
+
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <!--menu mobile-->
+
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                  <div id="pesquisa" class="z-depth-0">
+                    <form>
+                      <div class="input-field">
+                        <div class="input-field">
+                          <input id="search" type="search" placeholder="Pesquise aqui">
+                          <label class="label-icon" for="search"><i class="material-icons" id="iconsearch">search</i></label>
+                          <i class="material-icons" id="iconsearch">close</i>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+                <li><a href="Enem.html">Enem</a></li>
+                <li><a href="profissoes.html">Profissões</a></li>
+                <li><a href="metodo.html">Nosso método</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+              </ul><!--menu da navbar-->
+
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="Enem.html">Enem</a></li>
+                <li><a href="profissoes.html">Profissões</a></li>
+                <li><a href="metodo.html">Nosso método</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li>
+                  <div id="pesquisa-mobile">
+                    <form>
+                      <div class="input-field">
+                        <input id="search" type="search" placeholder="Pesquise aqui">
+                        <label class="label-icon" for="search"><i class="material-icons" id="iconsearch">search</i></label>
+                        <i class="material-icons" id="iconsearch">close</i>
+                      </div>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </nav><!--Navbar do site-->
+        
+        <div class="row">
+          <div class="col offset-l9">
+            <div class="usuario">
+              <a href="login.html" class="accent1"><i class="material-icons" id="iconuser">person</i>
+              Faça seu login ou cadastre-se</a>
+            </div>
+          </div>
+        </div><!--Extensão da navbar-->
+    </header>
+    <main>            
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/Home/programador.jpg"> <!-- random image -->
+            <a href="programacao.html">
+              <div class="caption left-align">
+                <h2>Top 3#</h2>
+                <h5 class="light grey-text text-lighten-3">Cursos com destaque.</h5>
+              </div>
+              <div class="caption center-align"></div>
+            </a>
+          </li>
+          <li>
+            <img src="img/Home/programador.jpg"> <!-- random image -->
+            <a href="programacao.html">
+              <div class="caption left-align">
+                <h2 class="center">Programação.</h2>
+                <h5 class="center">Top 1#</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <img src="img/Home/nutricionista.jpg"> <!-- random image -->
+            <a href="nutricionista.html">
+              <div class="caption left-align">
+                <h2 class="center">Nutrição.</h2>
+                <h5 class="center">Top 2#</h5>
+              </div> 
+            </a>
+          </li>
+          <li>
+            <img src="img/Home/astronauta.jpg"> <!-- random image -->
+            <a href="astronauta.html">
+              <div class="caption left-align">
+                <h2 class="center">Astronomia.</h2>
+                <h5 class="center">Top 3#</h5>
+              </div> 
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col l8 offset-l2 offset-m2 flow-text">
+          <p id="slogan">Descubra aqui sua profissão ideal.</p>
+        </div>
+      </div>
+      <div class="conteudo2 row">
+        <div class="carde col l2 m2 s6 offset-l2 offset-m2 offset-s3" id="borda">
+          <a href="quimico.html">
+            <img class="responsive-img" src="img/profissoes/cient.png">
+          </a>
+        </div>
+        <div class="carde col l2 m2 s6 offset-l1 offset-m1 offset-s3" id="borda">
+          <a href="gastronomia.html">
+            <img class="responsive-img" src="img/profissoes/cozinh.png">
+          </a>
+        </div>
+        <div class="carde col l2 m2 s6 offset-l1 offset-m1 offset-s3" id="borda">
+          <a href="musico.html">
+            <img class="responsive-img" src="img/profissoes/music.png">
+          </a>
+        </div>
+      </div>
+
+      <div class="conteudo row">
+        <div class="col l12 m12 s12 center flow-text">
+          <p>PLANOS</p>
+        </div>
+        <div class="carde col l2 m2 s10 offset-l2 offset-m1 offset-s1">
+            <p class="flow-text"><span>Pacote 50% off</span></p>
+            <p class="flow-text"><span>R$ 299,99 </span></p>
+            <a class="waves-effect waves-light btn" href="planos.html">Assinar 50% off</a>
+            <p class="flow-text">
+                50% de desconto (valido nos 4 primeiros meses)
+            </p>
+            <p class="flow-text">
+                Após 4 meses o valor passará a ser R$ 599,99
+            </p>
+            <p class="flow-text">
+                Melhores professores.
+            </p>
+        </div>
+        <div class="carde col l2 m2 s10 offset-l1 offset-m2 offset-s1">
+            <p class="flow-text"><span>Pacote 50% off</span></p>
+            <p class="flow-text"><span>R$ 299,99 </span></p>
+            <a class="waves-effect waves-light btn" href="planos.html">Assinar 50% off</a>
+            <p class="flow-text">
+                50% de desconto (valido nos 4 primeiros meses)
+            </p>
+            <p class="flow-text">
+                Após 4 meses o valor passará a ser R$ 599,99
+            </p>
+            <p class="flow-text">
+                Melhores professores.
+            </p>
+        </div>
+        <div class="carde col l2 m2 s10 offset-l1 offset-m2 offset-s1">
+            <p class="flow-text"><span>Pacote 50% off</span></p>
+            <p class="flow-text"><span>R$ 299,99 </span></p>
+            <a class="waves-effect waves-light btn" href="planos.html">Assinar 50% off</a>
+            <p class="flow-text">
+                50% de desconto (valido nos 4 primeiros meses)
+            </p>
+            <p class="flow-text">
+                Após 4 meses o valor passará a ser R$ 599,99
+            </p>
+            <p class="flow-text">
+                Melhores professores.
+            </p>
+        </div>
+      </div>
+
+      <div class="avaliações center">
+        <img class="responsive-img" src="img/Home/Captura de tela de 2022-01-13 02-44-14.png">
+      </div>
+        
+    </main>
+    <footer>
+      <nav>
+        <div class="row" class="espaco"></div>
+        <div class="row">
+          <div class="col offset-l2 l9">
+            <div id="linha"></div>
+          </div>
+        </div>
+        <div class="row">
+          <a href="https://www.facebook.com/Instituto-Minerva-100407802564441/" target="_blank"><div class="col offset-l5 ">
+            <i class="fab fa-facebook"></i></div></a>
+
+          <a href="https://www.instagram.com/instituto_minerva1/" target="_blank">
+            <div class="col"><i class="fab fa-instagram"></i></div></a>
+
+          <a href="https://twitter.com/InstitutoMiner1" target="_blank"><div class="col"><i class="fab fa-twitter-square">
+          </i></div></a><br>
+
+          <div class="col offset-l4"><h6> AV. Mjsjjjw, 698 - Olinda - PE  (81) 3777 - 0101 ou (81) 7405 - 0000</h6></div>
+        </div>
+        </nav>
+      </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="JS/navbar.js"></script>
+    <script src="JS/carrosel.js"></script>
+</body>
+</html>

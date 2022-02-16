@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Senha</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="row" id="linha1">
+        </div>
+        <div id="nav">
+        <div class="row" id="linha2">
+            <div class="col offset-l2 l1">
+                <a href="login.html" class="tabela">
+                LOGIN
+                </a>
+            </div>
+            <div class="col l2">
+                <a href="alterarsenha.html" class="tabela act">
+                ALTERAR SENHA
+                </a>
+            </div>   
+        </div>
+        </div>
+        <div class="redefinir tabelaShow">
+        <div class="row" id="linha3">
+        </div>
+        <div class="row" id="linha4">
+            <div class="col offset-l2 l4">
+                <input type="password" id="input-text" class="senha" placeholder="Digite uma nova Senha">
+                <i id="eye" class="fas fa-eye-slash" ></i><br><br>
+                <input type="password" id="input-text" class="senha2" placeholder="Digite Novamente">
+                <i id="eye2" class="fas fa-eye-slash" ></i>
+            </div>
+            <div class="col offset-l1">
+                <img src="img/logo_login.png" id="logo"><br>
+                <span>ONDE A SABEDORIA</span>
+                <span>PREDOMINA</span>
+            </div>
+        </div>
+        <div class="row" id="linha5">
+            <div class="col offset-l2 l5">
+                <h6>Após confirmar, sua senha será automaticamente redefinida</h6>
+            </div>
+        </div>
+        <div class="row" id="linha6">
+            <div class="col offset-l3">
+            <a href="login.html"><button id="button-redefinir">REDEFINIR SENHA</button></a>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="js/jquery.js"></script>
+    <script>
+        var senha = $('.senha');
+        var olho= $("#eye");
+
+        olho.mousedown(function() {
+            senha.attr("type", "text");
+        });
+
+        olho.mouseup(function(){
+            senha.attr("type", "password");
+        });
+
+        $( "#eye" ).mouseout(function() { 
+            $(".senha").attr("type", "password");
+        });
+    </script>
+    <script>
+        var senha2 = $('.senha2');
+        var olho2= $("#eye2");
+
+        olho2.mousedown(function() {
+            senha2.attr("type", "text");
+        });
+
+        olho2.mouseup(function(){
+            senha2.attr("type", "password");
+        });
+
+        $( "#eye2" ).mouseout(function() { 
+            $(".senha2").attr("type", "password");
+        });
+    </script>
+</body>
+</html>
